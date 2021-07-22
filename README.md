@@ -11,13 +11,14 @@ If you want to include **Reward** class, you dont have to require all classes, j
 
 
 ### **Reward Class**
-    Class that automatically handle default method, auto request method to either get **point** or **Equivalent Point Value in Dollar**
+
+Class that automatically handle default method, auto request method to either get **point** or **Equivalent Point Value in Dollar**
 
 ### **Reward Conversion Class**
-    It is main class that convert any currencies into USD dollar and overrides **amount** and **point** on the basis of user input
+It is main class that convert any currencies into USD dollar and overrides **amount** and **point** on the basis of user input
 
 ### Traits
-    I tried to use traits to manage certain configuration.
+I tried to use traits to manage certain configuration.
     Currently i am not using database to fetch and get information so that i used that method.
 
 
